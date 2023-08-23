@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+/* used main style here */
+.main{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(444.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* used main style here */
+
+/* used navbar style here */
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:  auto;
+    
+}
+/* used navbar style here */
+
+/* used icon style here */
+.icon{
+    width: 200px;
+    height: 
+    70px;
+    float: left;
+}
+/* used icon style here */
+
+/* used logo style here */
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ff7200;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-top: 10px;
+    float: left;
+}
+/* used logo style here */
+
+/* used menu style here */
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+/* used menu style here */
+
+/* used ul style here */
+ul{
+float: left;
+display: flex;
+
+}
+/* used ul style here */
+ul li{
+list-style: none;
+margin-left: 67px;
+margin-top:25px;
+}
+ul li a{
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+color: #ff7200;
+}
+/* used li style here */
+/* used desrch style here */
+.search{
+    width: 330px;
+    height: 70px;
+    float: right;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    margin-top: 13px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    font-weight: bold;
+    padding: 1px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.search .srch:focus{
+    outline: none;
+}
+/* used desrch style here */
+/* used button style here */
+.search .btn{
+    width: 100px;
+    height: 44px;
+    margin-top: 13px;
+    padding: 1px;
+    border: 2px solid #ff7200;
+    background-color: #ff7200;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search a{
+    color:#fff;
+    font-weight: bold;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.search a:hover{
+    color: #000;
+    
+}
+
+.search ::placeholder{
+    color: #fff;
+    font-weight: bold;
+}
+/* used button style here */
+/* used content syle here */
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+    position: relative;
+}
+.content h1{
+    margin-left: 20px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.content span{
+    color: #ff7200;
+    font-size: 65px;
+}
+.content p{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    letter-spacing: 1.2px;
+    line-height: 27px;
+    padding-bottom: 5px;
+}
+.content .ju{
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    font-size: 18px;
+    padding:10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px;
+    transition: 0.3s ease;
+}
+.content .ju:hover{
+    background-color: #fff;
+}
+.content .ju a{
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+.content .ju a:hover{
+    color: #ff7200;
+}
+/* used form here */
+.form{
+    width: 250px;
+    height:400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 870px;
+    top:-30px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form h2{
+    width: 230px;
+    height: 35px;
+    background-color:green;
+    font-family:sans-serif;
+    text-align: center;
+    padding-top:7px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+input{
+    width: 240px;
+    height: 30px;
+    margin-top: 10px;
+    font-family:sans-serif;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid green;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 13px;
+}
+.log{
+    width: 240px;
+    height: 35px;
+    margin-top: 35px;
+    background-color: #ff7200;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-items: center;
+
+}
+.log:hover{
+    background-color: #fff;
+}
+.log a{
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+.log a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.content .form .sign{
+    font-size: 13px;
+    align-items: center;
+    margin-right: 2px;
+}
+.another{
+    font-size:18px;
+    text-align: center;
+}
+.another a{
+    font-size: 22px;
+    color: red;
+}
+
+/* used form here */
+/* used content syle here */
